@@ -1,0 +1,200 @@
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
+*
+{
+	margin: 0;
+	padding: 0;
+	    font-size: 15px;
+    line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
+}
+.reset_p_m
+{
+	margin: 0!important;
+	padding: 0!important;
+}
+.banner
+{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.banner:hover
+{
+	cursor: pointer;
+}
+.search_bar
+{
+	width: 85%!important;
+	
+}
+.height
+{
+	height: 250px;
+	width: 200px;
+}
+.container_color
+{
+	background-color: #1A8BD6;
+	height: auto;
+	color: white;
+	font-size: 15px;
+}
+.phonecall
+{
+	padding-left: 40%;
+}
+.header
+{
+	width: 100%;
+}
+.logo
+{
+
+width: 100%!important;
+
+
+}
+
+.blacktext a
+{
+	color: black;
+}
+.blacktext li:hover a
+{
+	color: #18A5DD;
+}
+.hd-account a
+{
+	color: black;
+	text-decoration: none;
+	
+}
+.shopbag:hover
+{
+	color: #0380fd;
+}
+.hd-account a:hover 
+{
+	transition: all 0.4s;
+	text-decoration: none;
+}
+.m
+{
+	border-bottom: 1px solid #0380fd;
+}
+.line
+{
+	background-color: #0380fd;
+	width: 75%;
+	height: 1px;
+	margin: auto;
+	
+}
+.ds-top
+{
+
+	width: 100%;
+	background-color: blue;
+	padding: 5px;
+	color: white;
+	font-weight: bold;
+}
+.product
+{
+	position: relative;
+	width: 100%;
+}
+.product_price
+{
+	color: #D2D2D2;
+	text-decoration: line-through;
+
+}
+.product_sale
+{
+	position: absolute;
+	top: 0!important;
+	left: 0!important;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.sp-demo
+{
+  width: 100%;
+  border: 1px solid #538EDB;
+  border-radius:3px; 
+  position: relative;
+}
+
+/*.sp-demo p
+{
+  color: #222222;
+  font-family: "UVF-ProductSans-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
+ 
+}*/ 
+.sp-demo span
+{
+  color: #538EDB;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: bold;
+  margin: unset;
+  padding-left: 80px;
+  
+}
+
+/*.sp-demo:hover{
+  cursor: pointer;
+  opacity: 1;
+  top: 0;
+  transition: all 1s;
+}*/
+.sp-demo .start
+{
+  padding-left: 12px;
+}
+.sp-demo i
+{
+  color: #ECBA57;
+}
+.review span
+{
+  padding: unset;
+  font-size: 12px;
+  font-weight: bold;
+  color: #D5D5D5;
+
+}
+.h2
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 20%;
+}
+
+.tag_sale
+{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #538EDB;
+	color: white;
+	line-height: 55px;
+}
+.product-title
+{
+	min-height: 50px;
+}
+
+/*footer*/
